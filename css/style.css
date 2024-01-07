@@ -1,0 +1,411 @@
+* {
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Inter', sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* hero section start */
+.hero {
+  background-image: url("/image/Banner-Image.png");
+  width: 1320px;
+  height: 600px;
+  margin: 50px 0px;
+}
+.hero > div {
+  height: 600px;
+  vertical-align: middle;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.hero > div > h3 {
+  color: #fff;
+  font-family: "Merriweather";
+  font-style: normal;
+}
+.hero > div > h1 {
+  color: #fff;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  line-height: 95px;
+  width: 600px;
+  margin: 0 auto;
+}
+/* hero section end */
+
+/* category section start */
+
+.category {
+  text-align: center;
+}
+.category > h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.category > h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.category > h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.category img {
+  width: 802.9px;
+  margin: 0 auto;
+}
+/* category section end */
+
+/* party section start */
+
+.party {
+  margin-top: 100px;
+  background-image: url("/image/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  border-radius: 15px;
+}
+.party > div {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  gap: 40px;
+}
+.party > div > div {
+  display: flex;
+  align-items: self-start;
+  flex-direction: column;
+  gap: 30px;
+  width: 642px;
+}
+.party h1 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-family: "Merriweather";
+}
+.party small {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-family: Inter;
+}
+.party button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.party img {
+  width: 319.83px;
+  height: 464.662px;
+}
+/* party section end */
+/* location-status section start */
+.location-status {
+  margin-top: 100px;
+  font-family: "Inter";
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  padding: 80px 0px;
+  text-align: center;
+}
+.location-status h3 span {
+  color: #f00;
+}
+
+.location-status h3 {
+  line-height: 56px;
+}
+.location-status button {
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 46px;
+}
+/* location-status section end */
+.coming-soon {
+  margin-top: 100px;
+  font-family: Inter;
+  display: grid;
+  grid-template-columns: 393px 30% 276px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.coming-soon > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: self-start;
+}
+.coming-soon h4 {
+  color: #f00;
+}
+.coming-soon p {
+  color: rgba(7, 2, 17, 0.6);
+  font-weight: 400;
+}
+.coming-soon > div > div > img {
+  border: 10px solid red;
+  width: 463px;
+  height: 463px;
+  border-radius: 50%;
+  padding: 20px;
+  margin-left: -105px;
+}
+
+/* discount start */
+.discound {
+  margin-top: 100px;
+}
+.discound h4 {
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.discound h1 {
+  color: #f00;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 28px;
+  font-family: Merriweather;
+}
+.discound p {
+  width: 1068px;
+  margin: 0 auto;
+  color: rgba(7, 2, 17, 0.6);
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  font-family: Inter;
+  margin-bottom: 70px;
+}
+
+.discound-footer {
+  background-image: url("/image/Rectangle-2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 1320px;
+  height: 662px;
+}
+
+/* start portfolio */
+.portfolio {
+  margin-top: 100px;
+}
+.portfolio article {
+  width: 896px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.portfolio h4 {
+  color: #f00;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.portfolio h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.portfolio > div {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 428px 428px 428px;
+  justify-content: space-between;
+  gap: 15px;
+}
+.portfolio .portfolio-img {
+  text-align: center;
+  width: 428px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.portfolio > div > div > img {
+  transition: 1s ease-in;
+  cursor: pointer;
+}
+.portfolio > div > div > img:hover {
+  transform: scale(1.2);
+  transition: 1s ease-in;
+}
+/* end portfolio */
+/* Subscribe start  */
+.Subscribe {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 0;
+  margin-top: 100px;
+}
+.Subscribe p {
+  width: 896px;
+  margin: 0 auto;
+  color: rgba(7, 2, 17, 0.6);
+
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.Subscribe h2 {
+  color: #070211;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  text-align: center;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.Subscribe form {
+  font-family: Inter;
+  width: 648px;
+  margin: 0 auto;
+  height: 72px;
+  display: flex;
+
+align-items: center;}
+.Subscribe form input {
+  border-radius: 50px 0 0 50px;
+  width: 400px;
+  background: #fff;
+  padding: 25px 30px;
+  border: none;
+}
+.Subscribe form button {
+  background: red;
+  border: none;
+  padding: 18px 30px;
+  font-size: 24px;
+  border-radius: 0px 50px 50px 0px;
+  font-weight: 600;
+  color: #fff;
+  /* margin-left: -10px; */
+  cursor: pointer;
+}
+/* Subscribe end */
+footer {
+  background: #070211;
+  color: white;
+  font-family: Inter;
+  margin-top: 100px;
+}
+footer h4 {
+  color: #fff; 
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer section {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+footer >section >div {
+    height: 150px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-around;
+}
+footer section hr {
+  background: rgba(255, 255, 255, 0.15);
+  width: 1320px;
+  height: 1px;
+}
+footer >section >article{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 150px;
+    align-items: center;
+    vertical-align: middle;
+}
