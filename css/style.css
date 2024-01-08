@@ -252,7 +252,7 @@ main {
 }
 
 .discound-footer {
-  background-image: url("./image/Rectangle-2.png");
+  background-image: url("../image/Rectangle-2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   width: 1320px;
@@ -399,7 +399,7 @@ footer >section >div {
 footer section hr {
   background: rgba(255, 255, 255, 0.15);
   width: 1320px;
-  height: 1px;
+  height: .1px;
 }
 footer >section >article{
     display: flex;
