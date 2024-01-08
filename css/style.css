@@ -31,7 +31,7 @@ main {
 }
 /* hero section start */
 .hero {
-  background-image: url("../image/Banner-Image.png");
+  background-image: url("../image/banner-image.png");
   width: 1320px;
   height: 600px;
   margin: 50px 0px;
